@@ -1,4 +1,6 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,13 +8,12 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(135deg, #AE00FF, #FF3C00)
+    background: linear-gradient(135deg, #ae00ff, #ff3c00);
 }
 
 .clock {
     width: 550px;
     height: 150px;
-    /* border: 2px solid black; */
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
@@ -39,6 +40,4 @@ body {
     font-weight: bolder;
     font-size: 70px;
     color: white;
-    /* align-items: center; */
-    /* justify-content: center; */
 }
